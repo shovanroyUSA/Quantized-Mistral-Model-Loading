@@ -53,7 +53,7 @@ mistral_model = Llama(
     verbose=False         # Don't print debug info
 )
 
-print(f"✓ Model loaded successfully!\n")
+print(f" Model loaded successfully!\n")
 
 # Step 5: Create a prompt/question to ask the model
 question = input("Enter a question for the Mistral model (or press Enter for default): ").strip()
@@ -88,4 +88,4 @@ print("-" * 70)
 # Step 9: Print some metadata about the generation
 print(f"\nTokens generated: {response['usage']['completion_tokens']}")
 print(f"Total tokens used: {response['usage']['total_tokens']}")
-print("\n✓ Generation complete!")
+print("\n Generation complete!")
